@@ -1,0 +1,17 @@
+{
+  "name": "my-command-line-tool",
+  "version": "1.0.0",
+  "description": "A simple command-line tool",
+  "main": "tool.js",
+  "dependencies": {
+    "commander": "^6.1.0"
+  },
+  "scripts": {
+    "greet": "node tool.js greet",
+    "add": "node tool.js add"
+  },
+  "bin": {
+    "mytool": "tool.js"
+  },
+  "author": "Mavetech"
+}
